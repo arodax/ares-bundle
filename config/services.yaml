@@ -1,0 +1,11 @@
+parameters:
+
+services:
+  Arodax\AresBundle\Client\AresClientInterface:
+    alias: 'Arodax\AresBundle\Client\AresClient'
+  Arodax\AresBundle\Client\AresClient:
+    arguments:
+      $httpClient: '@http_client'
+  Arodax\AresBundle\Client\AresCachingClient:
+    arguments:
+      $client: '@Arodax\AresBundle\Client\AresClient'
