@@ -48,3 +48,39 @@ Thumbs.db
 *.mov
 *.wmv
 
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+/.env.test
+/.env
+/tests
+/templates
+/symfony.lock
+/src/Kernel.php
+/src/Controller
+/public
+/phpunit.xml.dist
+/config/routes.yaml
+/config/routes
+/config/preload.php
+/config/packages
+/config/bundles.php
+/bin
+/composer.lock
